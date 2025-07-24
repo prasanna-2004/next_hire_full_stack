@@ -51,3 +51,7 @@ JWT_SECRET=your_jwt_secret
 
 <img width="1855" height="869" alt="Screenshot 2025-07-24 220743" src="https://github.com/user-attachments/assets/ed620835-f523-41cd-bda8-c3b5a0f19f42" />
 
+## 🙏 Inspiration
+
+This project was inspired in part by the work and ideas of shubham79a.
+
