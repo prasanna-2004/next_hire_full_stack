@@ -1,149 +1,53 @@
-# 💼 Job Portal App
+# 🧑‍💼 NextHire – Full-Stack Job Portal (MERN)
 
-A modern, full-stack Job Portal built with the powerful **MERN stack** — enabling both job seekers (students) and recruiters to connect seamlessly. With a clean, animated, and responsive UI, this platform allows users to explore opportunities, post jobs, and manage applications with ease.
-
----
-
-## ✨ Features
-
-### ✅ General
-- 🔐 **Authentication System** — Secure login & registration using JWT
-- 👥 **Role-Based Access** — Separate dashboards for students and recruiters
-- 🌐 **Clean, Responsive UI** — Built with Tailwind CSS & shadcn/ui
-- 🎯 **Dynamic Routing & State Management** — Smooth navigation across the app
-
-### 🎓 Student Role
-- Browse and search job listings
-- Apply to jobs with one click
-- Track application status in personal dashboard
-
-### 🧑‍💼 Recruiter Role
-- Post new job opportunities
-- View applicants for each job
-- Edit or delete job postings
-- Manage all listings from a unified dashboard
+A modern, full-stack Job Portal built using the powerful **MERN stack** — enabling seamless interaction between **job seekers (students)** and **recruiters**. With a clean, animated, and responsive UI, the platform empowers users to **explore opportunities, post jobs, and manage applications** effortlessly.
 
 ---
 
-## 🎨 UI & Animations
+## 🚀 Features
 
-The UI is built with **Tailwind CSS** and enhanced with **shadcn/ui** components for consistency and accessibility. Smooth animations and transitions are added using **Framer Motion**, delivering a modern and engaging user experience.
-
-- Responsive layout for mobile, tablet, and desktop
-- Dark/light mode support (optional if implemented)
-- Animated modals, buttons, and transitions
-- Accessible and consistent component design
+- 🔍 **Job Listings**: Browse and search for jobs by title, location, or company
+- 🧑‍🎓 **Student Portal**: Register, build your profile, and apply to jobs
+- 🏢 **Recruiter Portal**: Post jobs, view applicants, and manage listings
+- 📱 **Responsive UI**: Fully mobile-friendly design with animations
+- 🛡️ **Authentication**: Secure login/signup for both students and recruiters
+- 📊 **Dashboard**: Personalized dashboard for job tracking and management
+- 📬 **Application Management**: Track job applications in real-time
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🧑‍💻 Frontend
-- **React.js** – Component-based architecture
-- **Tailwind CSS** – Utility-first CSS for clean, responsive UI
-- **shadcn/ui** – Beautiful, headless UI components
-- **Framer Motion** – Animations and motion effects
-- **React Router** – Client-side routing
-- **Axios** – API communication
+### Frontend:
+- React.js
+- Tailwind CSS / CSS Modules
+- Framer Motion (for animations)
+- Axios
 
-### 🖥️ Backend
-- **Node.js** – Server-side JavaScript runtime
-- **Express.js** – Web framework for APIs
-- **MongoDB** – NoSQL database for storing user/job data
-- **Mongoose** – MongoDB object modeling for Node.js
-- **JWT (JSON Web Token)** – Authentication and authorization
+### Backend:
+- Node.js
+- Express.js
+- MongoDB (with Mongoose)
+- JWT Authentication
+- Multer (for file uploads, if used)
 
 ---
 
-## 📁 Project Structure
+## 📦 Installation & Setup
 
-### job-portal/ ├── client/ # React + Tailwind frontend │ ├── components/ │ ├── pages/ │ └── ... ├── server/ # Express backend API │ ├── routes/ │ ├── controllers/ │ └── models/ └── README.md
-
----
-
-
----
-
-## 🔒 Authentication Flow
-
-- **Users register/login with their email and password**
-
-- **JWT tokens are issued and stored securely**
-
-- **Access is restricted based on user roles (student/recruiter)**
-
-- **Protected routes for job posting, applications, and dashboards**
-
----
-
-## ⚙️ Getting Started
-
-### 1. Clone the Repository
-
+1. **Clone the repository**
 ```bash
-git clone https://github.com/shubham79a/job-portal.git
-cd job-portal
-```
-
-### 2. Setup Environment Variables
-Create a .env file inside the server/ directory with:
-
-```bash
-MONGODB_URI = ""
-PORT = 8000
-SECRET_KEY = ""
-
-CLOUDINARY_API_KEY = ""
-CLOUDINARY_SECRET_KEY = ""
-CLOUDINARY_NAME = ""
-
-NODE_ENV === ""
-```
-
-### 3. Install Dependencies
-
-```bash
-# Install frontend packages
-cd client
-npm install
-
-# Install backend packages
-cd ../server
-npm install
-```
-
-### 4. Run the Application
-
-```bash
-# Start backend server
-cd server
-npm run dev
-
-# Start frontend dev server
-cd ../client
-npm start
-```
-
-### Open in browser:
-- **Frontend → http://localhost:5137**
-- **Backend → http://localhost:5000**
-
----
+git clone https://github.com/prasanna-2004/next_hire_full_stack.git
+cd next_hire_full_stack
 
 
-## 📜 License
-- **This project is open-source and licensed under the MIT License.**
 
----
+#create a .env file on server side
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 
+##Screenshots
 
-## 👨‍💻 Author
-- **Made with 💙 by Shubham**
-- **🔗 Connect on [LinkedIn](https://www.linkedin.com/in/shubham-kumar-894799290/)
+<img width="1855" height="869" alt="Screenshot 2025-07-24 220743" src="https://github.com/user-attachments/assets/ed620835-f523-41cd-bda8-c3b5a0f19f42" />
 
----
-
-
-## 🙌 Contributions
-**Feel free to fork the repo, submit issues, or open a pull request.**
-**Suggestions and contributions are always welcome!**
